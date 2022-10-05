@@ -1,0 +1,40 @@
+body {
+  background-color: rgb(182, 182, 182);
+  font-family: sans-serif;
+  text-align: center;
+}
+div {
+  float: left;
+  border: 1px solid black;
+  margin: 20px;
+  border-radius: 10%;
+  width: 222px;
+}
+img {
+  margin: 20px;
+}
+hr {
+  clear: left;
+  border: none;
+  margin: 20px;
+  background-color: rgba(0, 0, 0, 50%);
+  height: 1px;
+}
+p {
+  margin: 20px;
+  font-weight: bold;
+}
+a.home_work{
+  display: inline-block;
+  background-color: rgb(182, 182, 182);
+  border: none;
+  margin: 10px 0 0 2vw;
+  padding: 10px 0px 5px 0px;
+  border-radius: 0;
+  color: black;
+  text-transform: none;
+  text-decoration: none;
+}
+a.home_work:hover{
+text-decoration: underline;
+}

@@ -1,0 +1,100 @@
+@font-face {
+    font-family: Pompadur;
+    src: url(../fonts/RobotoCondensed-Regular.ttf);
+}
+body {
+  background-color: rgb(200, 200, 200);
+  font-family: Pompadur, sans-serif;
+  font-size: 18px;
+  color: white;
+text-align: center;
+}
+footer{
+margin: 2vw;
+padding: 2vw;
+background-color: rgb(65, 105, 225);
+}
+div{
+display: flex;
+justify-content: space-between;
+margin-left: 3vw;
+}
+.links{
+display: flex;
+justify-content: space-between;
+width: 50%;
+text-align: left;
+}
+ul{
+margin: 0vw;
+padding: 3px;
+}
+a.link{
+color: white;
+text-decoration: none;
+}
+.link:hover{
+text-decoration: underline;
+}
+.logos{
+width: 20%;
+padding: 2vw;
+display: flex;
+justify-content: center;
+}
+.logo-fb{
+background: url(../img/fb_gray.png);
+margin-right: 2vw;
+width: 3vw;
+height: 3vw;
+background-size: 100%;
+transition: 0.5s;
+}
+.logo-insta{
+background: url(../img/insta_gray.png);
+margin-right: 2vw;
+width: 3vw;
+height: 3vw;
+background-size: 100%;
+transition: 0.5s;
+}
+.logo-yt{
+background-image: url(../img/youtube_gray.png);
+width: 3vw;
+height: 3vw;
+background-size: 100%;
+transition: 0.5s;
+}
+.logo-fb:hover{
+background-image: url(../img/fb.png);
+}
+.logo-insta:hover{
+background-image: url(../img/insta.png);
+}
+.logo-yt:hover{
+background-image: url(../img/youtube.png);
+}
+hr{
+clear:left;
+border: none;
+background-color: rgb(255, 255, 255);
+height: 1px;
+}
+p{
+text-align: center;
+font-size: 12px;
+}
+a.home_work{
+  display: inline-block;
+  background-color: rgb(200, 200, 200);
+  border: none;
+  margin: 10px 0 0 2vw;
+  padding: 10px 0px 5px 0px;
+  border-radius: 0;
+  color: black;
+  text-transform: none;
+  text-decoration: none;
+}
+a.home_work:hover{
+text-decoration: underline;
+}

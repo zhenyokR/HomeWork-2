@@ -1,0 +1,51 @@
+body {
+  background-color: rgb(180, 180, 180);
+  text-align: center;
+}
+nav {
+  background-color: rgb(100, 100, 100);
+  width: 60vw;
+  margin: 5vw;
+}
+a {
+  display: block;
+  margin: 0;
+  height: 12vw;
+  border: none;
+  transition: 0.4s;
+}
+  a:hover {
+  background-color: rgb(70, 70, 70);
+ }
+img {
+  width: 14vw;
+  height: 14vw;
+  margin: -1vw;
+  padding-left: 4vw;
+}
+p {
+  float: right;
+  color: white;
+  width: 37vw;
+  height: 6vw;
+  margin: 0vw;
+  padding: 3vw;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 5vw;
+}
+a.home_work{
+  display: inline-block;
+  background-color: rgb(180, 180, 180);
+  border: none;
+  margin: 10px 0 0 2vw;
+  padding: 10px 0px 5px 0px;
+  border-radius: 0;
+  color: black;
+  text-transform: none;
+  text-decoration: none;
+}
+a.home_work:hover{
+text-decoration: underline;
+}
