@@ -48,7 +48,6 @@ margin-right: 2vw;
 width: 3vw;
 height: 3vw;
 background-size: 100%;
-transition: 0.5s;
 }
 .logo-insta{
 background: url(../img/insta_gray.png);
@@ -56,23 +55,24 @@ margin-right: 2vw;
 width: 3vw;
 height: 3vw;
 background-size: 100%;
-transition: 0.5s;
 }
 .logo-yt{
 background-image: url(../img/youtube_gray.png);
 width: 3vw;
 height: 3vw;
 background-size: 100%;
-transition: 0.5s;
 }
 .logo-fb:hover{
 background-image: url(../img/fb.png);
+transition: 0.5s;
 }
 .logo-insta:hover{
 background-image: url(../img/insta.png);
+transition: 0.5s;
 }
 .logo-yt:hover{
 background-image: url(../img/youtube.png);
+transition: 0.5s;
 }
 hr{
 clear:left;
